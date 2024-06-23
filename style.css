@@ -1,0 +1,434 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    height: 4247px;
+}
+.header{
+    background-color: black;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 117px;
+    border-bottom: .1rem solid rgba(255, 255, 255, .3)
+}
+.header .logo img{
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 116px;
+    margin-left: 192px;
+    padding-top: 20px;
+}
+.photo{
+    display: inline-block;
+    align-items: center;
+    background-image:url("photos/devojka 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 574px;
+    width: 546px;
+    float: right;
+    margin-top: -297px;
+    margin-right: 115px;
+
+}
+#home > div > h3{
+    text-transform: uppercase;
+    font-size: 89px;
+    color: white;
+    display: inline-block;
+    float: left;
+    margin-left: 190px;
+    margin-top: 235px;
+    width: 1000px;
+}
+#home > div > p{
+    font-size: 35px;
+    font-weight: lighter;
+    line-height: 1.5;
+    color: white;
+    display: inline-block;
+    float: left;
+    margin-left: 188px;
+    padding-top: 39px;
+    font-family: 'Brush Script MT', cursive;
+
+}
+.btn{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 104px;
+    /* margin-right: 94px; */
+    margin-left: -287px;
+    width: 197px;
+    text-shadow: aqua;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-left: 20px;
+    font-family: Garamond, serif;
+}
+#topbarright ul li a{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#topbarright ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding-right: 26px;
+    padding-top: -20px;
+    padding-bottom: 14px
+}
+#topbarright ul {
+    margin-left: 38px;
+    margin-right: 306px;
+}
+#topbarleft img{
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 116px;
+    margin-left: 192px;
+    padding-top: 20px;
+}
+.heading{
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 51px;
+    margin-top: 820px;
+    margin-left: 595px;
+}
+.head{
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: -20px;
+    font-size: 60px;
+    margin-top: 527px;
+    margin-left: 303px;
+    font-family: Garamond, serif;
+    margin-bottom: -20px;
+}
+.heading span{
+    color: bisque;
+    text-transform: uppercase;
+}
+.photo-container img{
+    display: inline-block;
+    float: left;
+    height: 460px;
+    width: 565px;
+    margin-left: 159px;
+    margin-top: 9px;
+}
+.sodrzina{
+    background-color: #111219;
+    display: inline-block;
+    float: right;
+    width: 626px;
+    height: 460px;
+    margin-right: 166px;
+    margin-top: 8px;
+}
+.sodrzina h3{
+    color: white;
+    font-size: 30px;
+    font-family: Garamond, serif;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    margin-top:20px;
+}
+#about > div > div.sodrzina > p:nth-child(2){
+    color: white;
+    font-size: 18px;
+    font-family: Garamond, serif;
+    padding-left: 40px;
+    width: 550px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+#about > div > div.sodrzina > p:nth-child(3){
+    color: white;
+    font-size: 18px;
+    font-family: Garamond, serif;
+    padding-left: 40px;
+    width: 550px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+.box-container{
+    display: flex;
+    padding: 0 10px;
+}
+.rewiew {
+    padding: 110px;
+    margin-top: -500px;
+}
+
+.rewiew .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 60px;
+}
+
+.rewiew .box-container .box {
+    background-color: white;
+    border-radius: 2.5rem;
+    padding: 2rem 2rem;
+    flex: 1 1 calc(33.333% - 1rem);
+    box-sizing: border-box;
+}
+
+.rewiew .box-container .box .quote {
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 6rem;
+    color: white;
+}
+
+.rewiew .box-container .box .user {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.rewiew .box-container .box .user img {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.rewiew .box-container .box p {
+    color: dimgray;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.rewiew .box-container .box .user h3 {
+    font-size: 2rem;
+    color: black;
+}
+#rewiew > div > div:nth-child(1) > div{
+    margin-top: 175px;
+}
+#rewiew > div > div:nth-child(3) > div{
+    margin-top: 97px;
+}
+body > section.rewiew > div > div:nth-child(3),
+body > section.rewiew > div > div:nth-child(2),
+body > section.rewiew > div > div:nth-child(1) {
+    background-color: #d2d2d2;
+}
+.galerija{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 593px 108px 0 108px;
+}
+.galerija .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.galerija .box .photo-box{
+    display: flex;
+    flex-direction: column;
+    width: 23.5%;
+}
+.galerija .box .photo-box img{
+   width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    
+}
+.pasii{
+    margin-top: 580px;
+}
+.pasiinaslov{
+    margin-left: 230px;
+}
+.pasiislika img{
+    display: inline-block;
+    float: right;
+    height: 625px;
+    margin-right: 200px;
+    margin-top: -78px;
+}
+body > section.pasii > div.pasiinaslov > p:nth-child(1){
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Garamond, serif;
+    line-height: 1.5;
+}
+body > section.pasii > div.pasiinaslov > p:nth-child(3),
+body > section.pasii > div.pasiinaslov > p:nth-child(4){
+    font-size: 19px;
+    color: white;
+    width: 500px;
+    padding-top: 50px;
+    font-family: Garamond, serif;
+}
+.pasiislika img{
+    display: inline-block;
+    float: right;
+    height: 490px;
+    margin-right: 285px;
+    margin-top: -413px
+}
+.pasii .pasiinaslov h2{
+    color: white;
+    font-size: 75px;
+    font-family: Garamond, serif;
+    width: 500px;
+}
+.gallery-naslov{
+    color: white;
+    margin-top: -466px;
+    padding-bottom: 70px;
+}
+.gallery-naslov h2{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: Garamond, serif;
+}
+.gallery-naslov h3{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+}
+
+
+
+.footer {
+    background-color: #111219;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer h3 {
+    border-bottom: 1px solid #777;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer p,
+.footer a {
+    font-size: 0.9em;
+    color: #bbb;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #777;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.8em;
+    color: #bbb;
+}
+
+.box .photo-box img{
+    height: 400px;
+    width: 350px;
+}
+.about .sodrzina:hover {
+    background-color: #f9f9f9;
+    color: #111219;
+}
+#about > div > div.sodrzina > p:nth-child(2):hover,
+#about > div > div.sodrzina > p:nth-child(3):hover,
+.sodrzina h3:hover
+{
+    color: #111219;
+}
+.photo-box img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.rewiew .box:hover {
+    background-color: #2b2d30;
+    color: white;
+    box-shadow: 0 4px 8px white;
+}
+/*#topbarright ul li a:hover {
+    background-color: white;
+    color:red;
+}*/
+.footer-contact span{
+    font-size: 11px;
+}
+
+
+
+
